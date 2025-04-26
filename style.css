@@ -26,7 +26,33 @@ nav ul li a {
 }
 
 nav ul li a:hover{
-    color: aqua;
+    color: bisque;
     font-size: large;
     transform: rotate(10deg);
 }
+
+#rice-pic{
+    width: max-content;
+    height:max-content;
+}
+
+#noodle-pic {
+    width:fit-content;
+    height: 500px;
+}
+
+#background-pic{
+    width:100%;
+}
+.dropdown-content{
+    overflow: hidden;
+    color: wh;
+}
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
